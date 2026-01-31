@@ -1,0 +1,18 @@
+.about-card{
+    margin-left: 0px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px gray;
+}
+
+.about-des h2{
+    font-weight: bold;
+}
+
+.about-des p{
+    margin-left: 10px;
+}

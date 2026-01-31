@@ -1,0 +1,137 @@
+nav{
+    padding: 10px 20px;
+    align-items: center;
+    box-shadow: 1px 2px 10px 0px gray;
+}
+
+.header-title {
+    font-size: 24px;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+}
+
+nav ul {
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul li:last-child{
+    font-size: 26px;
+}
+
+.signup{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.menu-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.blackoverlay{
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.about-us{
+    font-size: 32px;
+    padding: 30px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.team-members{
+    display: flex;
+    position: fixed;
+    gap: 20px;  
+    flex-direction: column;
+    height: 100%;
+    width: inherit;
+    overflow: scroll;
+    padding: 10px 20px;
+    margin-left: 0px;
+    padding-bottom: 200px;
+}
+
+.team-members::-webkit-scrollbar {
+    display: none;
+}
+
+.cross{
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.signup-box{
+    height: fit-content;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px 0px gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
+    transition: 500ms ease;
+}
+
+.signup-login-container{
+    display: flex;
+    gap: 20px;
+}
+
+.login-option, .sign-up-option{
+    cursor: pointer;
+    color: blue;
+    border: solid 1px blue;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.login-option:hover, .sign-up-option:hover{
+    background-color: blue;
+    color: white;
+    transition: 300ms ease;
+}
+
+.sign-up-box{
+    padding: 10px 10px;
+}
+
+.sign-up-box form input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.login-box form input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.submit-btn{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .sidebar{
+        width: 300px;
+    }
+}
